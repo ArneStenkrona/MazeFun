@@ -8,8 +8,6 @@ import sys
 # how to adapt Prim's algorithm to maze generation that I have found
 # link: https://stackoverflow.com/a/29758926
 
-
-
 class Maze:
     """
     A maze data structure, represented as a boolean grid where
@@ -184,9 +182,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-
-
-
-
