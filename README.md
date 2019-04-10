@@ -56,6 +56,13 @@ diagonals excluded.
 ```
 Where values within '<>' are integers
 
+## Dependencies
+numpy
+
+PIL
+
+cv2
+
 ## Authors
 
 * **Arne Stenkrona** 
