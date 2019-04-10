@@ -57,11 +57,11 @@ diagonals excluded.
 Where values within '<>' are integers
 
 ## Dependencies
-numpy
+numpy (http://www.numpy.org/)
 
-PIL
+PIL (https://pillow.readthedocs.io/en/stable/)
 
-cv2
+cv2 (https://pypi.org/project/opencv-python/)
 
 ## Authors
 
