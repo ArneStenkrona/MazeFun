@@ -1,4 +1,4 @@
-![Example](https://raw.githubusercontent.com/ArneStenkrona/MazeFun/master/img/MazeFun.PNG)
+![Example](https://raw.githubusercontent.com/ArneStenkrona/MazeFun/master/MazeFun.PNG)
 
 # MazeFun
 
