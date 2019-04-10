@@ -167,7 +167,7 @@ def main():
         elif len(sys.argv) == 2:
             # Arguments specify only width
             Maze(int(args[1]), int(args[1]), animate=True)
-        elif len(sys.argv) == 2:
+        elif len(sys.argv) == 1:
             # Default to width = height = 100
             Maze(int(100), int(100), animate=True)
         else:
