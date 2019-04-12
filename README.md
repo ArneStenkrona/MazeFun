@@ -29,18 +29,24 @@ edges between cells, the minimum spanning tree will resemble a maze. A bit confu
    - Add the frontier fs of (x, y) to s            
 
 **Frontier**
-The frontier of a cell are all walls within an exact distance of two,
+The frontier, shown in red, of a cell, shown in green, are all walls within an exact distance of two,
 diagonals excluded.
+
+![Example](https://raw.githubusercontent.com/ArneStenkrona/MazeFun/master/Frontier.png)
 
 **Neighbours**
-The neighbours of a cell are all passages with exact distance two,
+The neighbours, shown in red, of a cell, shown in green, are all passages with exact distance two,
 diagonals excluded.
 
+![Example](https://raw.githubusercontent.com/ArneStenkrona/MazeFun/master/Neighbours.png)
+
 **Connecting two cells**
-Connecting wall (x1, y1) to passage (x2, y2) assumes that they are
+Connecting a wall w, shown in green, to a passage p, shown in orange, assumes that they are
 at an exact distance of two of each other, and not on the diagonal.
-To connect them we turn the wall (x1, y2) into a passage, as well
-as the cell between (x1, y1) and (x2, y2).
+To connect them we turn the wall w into a passage, as well
+as the cell between w and p.
+
+![Example](https://raw.githubusercontent.com/ArneStenkrona/MazeFun/master/Connect.png)
 
 **Further reading**
 [Wikipedia:Prim's algorithm](https://en.wikipedia.org/wiki/Prim%27s_algorithm "Prim's algorithm")
