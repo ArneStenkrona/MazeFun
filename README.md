@@ -25,7 +25,7 @@ edges between cells, the minimum spanning tree will resemble a maze. A bit confu
 
    - Pick a random cell (x, y) from s and remove it from s
    - Get neighbours ns of (x, y)
-   - Connect s with random neighbour n from ns
+   - Connect (x, y) with random neighbour (nx, ny) from ns
    - Add the frontier fs of (x, y) to s
             
 [Wikipedia:Prim's algorithm](https://en.wikipedia.org/wiki/Prim%27s_algorithm "Prim's algorithm")
