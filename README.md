@@ -26,11 +26,7 @@ edges between cells, the minimum spanning tree will resemble a maze. A bit confu
    - Pick a random cell (x, y) from s and remove it from s
    - Get neighbours ns of (x, y)
    - Connect (x, y) with random neighbour (nx, ny) from ns
-   - Add the frontier fs of (x, y) to s
-            
-[Wikipedia:Prim's algorithm](https://en.wikipedia.org/wiki/Prim%27s_algorithm "Prim's algorithm")
-
-[Wikipedia:Minimum spanning tree](https://en.wikipedia.org/wiki/Minimum_spanning_tree "Minimum spanning tree")
+   - Add the frontier fs of (x, y) to s            
 
 **Frontier**
 The frontier of a cell are all walls within an exact distance of two,
@@ -40,6 +36,16 @@ diagonals excluded.
 The neighbours of a cell are all passages with exact distance two,
 diagonals excluded.
 
+**Connecting two cells**
+Connecting wall (x1, y1) to passage (x2, y2) assumes that they are
+at an exact distance of two of each other, and not on the diagonal.
+To connect them we turn the wall (x1, y2) into a passage, as well
+as the cell between (x1, y1) and (x2, y2).
+
+**Further reading**
+[Wikipedia:Prim's algorithm](https://en.wikipedia.org/wiki/Prim%27s_algorithm "Prim's algorithm")
+
+[Wikipedia:Minimum spanning tree](https://en.wikipedia.org/wiki/Minimum_spanning_tree "Minimum spanning tree")
 
 ## Building and running
 
