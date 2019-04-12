@@ -11,9 +11,7 @@ be modified to generate mazes. The rough idea is to construct a graph with verti
 in the maze, with each cell connected to four neighbours; up, down, left and right. By randomizing the weights for
 edges between cells, the minimum spanning tree will resemble a maze. A bit confusing, perhaps.
 
-[Wikipedia:Prim's algorithm](https://en.wikipedia.org/wiki/Prim%27s_algorithm "Prim's algorithm")
 
-[Wikipedia:Minimum spanning tree](https://en.wikipedia.org/wiki/Minimum_spanning_tree "Minimum spanning tree")
 
 **What it looks like in practice**:
 
@@ -30,6 +28,9 @@ edges between cells, the minimum spanning tree will resemble a maze. A bit confu
    - Connect s with random neighbour n from ns
    - Add the frontier fs of (x, y) to s
             
+[Wikipedia:Prim's algorithm](https://en.wikipedia.org/wiki/Prim%27s_algorithm "Prim's algorithm")
+
+[Wikipedia:Minimum spanning tree](https://en.wikipedia.org/wiki/Minimum_spanning_tree "Minimum spanning tree")
 
 **Frontier**
 The frontier of a cell are all walls within an exact distance of two,
