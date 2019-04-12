@@ -95,7 +95,7 @@ class Maze:
         4. while s is not empty:
             4a. Pick a random cell (x, y) from s and remove it from s
             4b. Get neighbours ns of (x, y)
-            4c. Connect s with random neighbour n from ns
+            4c. Connect (x, y) with random neighbour (nx, ny) from ns
             4d. Add the frontier fs of (x, y) to s
 
         :param animate: animate the maze
