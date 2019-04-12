@@ -7,7 +7,7 @@ This is a simple example of Maze Generation using Prim's algorithm.
 ## What is Prim's algorithm?
 
 Prim's algorithm is a greedy algorithm for finding a minimum spanning tree for a weighted undirected graph. It can
-be modified to generate mazes. The rough idea, in the abstract, is to construct a graph with vertices for each "cell/square"
+be modified to generate mazes. The rough idea, is to construct a graph with vertices for each "cell/square"
 in the maze, with each cell connected to four neighbours; up, down, left and right. By randomizing the weights for
 edges between cells, the minimum spanning tree will resemble a maze. A bit confusing, perhaps.
 
